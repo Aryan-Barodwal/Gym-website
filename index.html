@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 
 <head>
     <meta charset="UTF-8">
@@ -16,7 +16,6 @@
     /* CSS Reset  */
     body {
         color: rgb(175 69 68);
-
         margin: 0px;
         padding: 0px;
         background: url('img/bg.jpg');
@@ -31,57 +30,39 @@
         top: 20px;
         border: none;
         margin: 0px;
-
-
     }
 
     .mid {
-        /* display: inline-block; */
         display: block;
         width: 83%;
         margin: 42px auto;
-
         border: 2px solid rgb(146, 152, 240);
         border: none;
-
     }
 
     .right {
         display: inline-block;
-
         position: absolute;
         right: 11px;
         top: 20px;
-
-        /* border: 2px solid rgb(228, 232, 240); */
-        border-width: 10px;
         border-radius: 13px;
-
-
-
     }
 
     .navbar {
         display: inline-block;
         border: none;
-
     }
 
     .navbar li {
         font-size: 18px;
         display: inline-block;
         list-style: none;
-
-
     }
 
     .navbar li a {
         text-decoration: none;
         color: rgb(15, 14, 14);
         padding: 4px 8px;
-
-
-
     }
 
     .navbar li a:hover {
@@ -90,10 +71,8 @@
     }
 
     .left img {
-
         width: 96px;
         border-radius: 4px;
-
     }
 
     .left div {
@@ -102,19 +81,16 @@
     }
 
     .container {
-        margin: 144px 129px;
-        /* padding: 57px 290px; */
-        width: 100%;
-        border: 2px solid black;
-        border: none;
+        width: max-content;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        font-size: 53px;
     }
 
-
-    /* .container h1{/ */
-    /* color: black;
-        width: 20px;
-        padding: 20px;
-        margin: 20px; */
     .container .bhot {
         font-size: 58px;
         color: #040404;
@@ -122,14 +98,13 @@
 
     .container .accent {
         font-size: 58px;
-        color: #da1515;
+        color: rgb(27, 178, 27);
     }
 
     .container .rya {
         font-size: 58px;
-        color: #f80808;
+        color: #040404;
     }
-
 
     .container .last .btn {
         width: 130px;
@@ -164,15 +139,6 @@
         color: rgb(56, 236, 56);
     }
 
-    .last {
-        /* display: flex;
-        justify-content: center; */
-        margin: auto;
-        width: 10%;
-        /* position: fixed; */
-
-    }
-
     .btn {
         width: 143px;
         height: 54px;
@@ -182,9 +148,6 @@
         border-radius: 41px;
         cursor: pointer;
 
-
-        /* text-align: center; */
-
     }
 
     .btn:hover {
@@ -192,37 +155,10 @@
         background-color: #040404;
     }
 
-    .cla {
-        border: 2px solid black;
-        text-align: center;
-        margin: 20px 20px;
-        position: absolute;
-        top: 318px;
-        left: 457px;
-        text-align: center;
-        display: block;
-        border: none;
-    }
-
     .fir {
-        color: #0f0f0f;
-        /* height: 200px; */
-        /* text-size-adjust: 300px; */
-        font-size: 22px;
-        padding: -2px 27px;
-    }
-    .firr{
-        color: rgb(218 19 19);
-    }
-
-
-
-
-    /* aryan {
         text-align: center;
-        white-space: pre-wrap;
-        transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
-        transition-duration: 0.5s */
+        color: rgb(193, 37, 42);
+    }
 </style>
 
 <body>
@@ -254,34 +190,33 @@
         </div>
     </header>
     <div class="container">
-        <!-- class= "aryan" style="text-align: center; white-space : pre-wrap;transition-timing-function:cubic-bezier(0.19,1 ,0.22,1);transition-duration: 0.5s;" class="preFlex flexin"> -->
-        <span class="bhot">
-            <strong>WANT TO FIND </strong>
-        </span>
-        <span class="accent">
-            <strong>YOUR POTENTIAL</strong>
+        <div>
+            <span class="bhot">
+                <strong>WANT TO FIND </strong>
+            </span>
+            <span class="accent">
+                <strong>YOUR POTENTIAL</strong>
 
-        </span>
-        <span class="rya">
-            <strong>?</strong>
-        </span>
-
-    </div>
-    <div class="cla">
-        <sapn class="fir">
-            <strong>You don’t have to be great </strong>
-        </span>
-        <span class="firr">
-            <strong>to start</strong>
-        </span>
-        <div class="fir">
-            <strong>Do have to start to be great.</strong>
+            </span>
+            <span class="rya">
+                <strong>?</strong>
+            </span>
         </div>
 
-
-    </div>
-    <div class="last">
-        <a href="https://www.grid-gym.com/30day-trial" target="_blank"><button class="btn">GET STARTED</button></a>
+        <div class="cla">
+            <sapn class="fir">
+                <strong>You don’t have to be great </strong>
+                </span>
+                <span class="firr">
+                    <strong>to start</strong>
+                </span>
+                <div class="fir">
+                    <strong>Do have to start to be great.</strong>
+                </div>
+        </div>
+        <div class="last">
+            <a href="https://www.grid-gym.com/30day-trial" target="_blank"><button class="btn">GET STARTED</button></a>
+        </div>
     </div>
 
 
